@@ -19,6 +19,6 @@ Modify all the parameters in the code, guide yourself according to the comments
 
 When u build and execute the code, You just have to scan the QR code of WhatsApp Web, then next time you won't have to scan it.
 
-## Autor ✒️
+## Author ✒️
 
 * **Jorge Manuel Lozano Gómez**
