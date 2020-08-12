@@ -13,7 +13,7 @@ WhatsApp Web Spammer is a script that specifying the target (name of the victim)
 
 ## Configuring 🔧
 
-Modify all the parameters in the code, guide yourself according to the comments
+Modify all the parameters in the code (normally expressed as "xxxx..."), guide yourself according to the comments
 
 ## Deploy
 
