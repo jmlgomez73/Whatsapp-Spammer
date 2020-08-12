@@ -19,16 +19,15 @@ driverPath = "C:/WINDOWS/chromedriver.exe"
 driver = webdriver.Chrome(executable_path=driverPath,options=options)
 driver.get('http://web.whatsapp.com')
 
-print("Scanning...")
-CountDown(3)
-
 #Define the name of the target in WhatsApp Web //Insert the target name
 target='xxx'
 #Define the amount of messages 
-count=222
+count=xxx
 
 while True:
-	try:
+	try:	
+		#Wait for the loaded main page
+		element = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, "myDynamicElement")))
 		#Search for the target and get into the chat
 		driver.find_element_by_xpath('//span[@title="{}"]'.format(target)).click()
 
