@@ -8,16 +8,21 @@ WhatsApp Web Spammer is a script that specifying the target (name of the victim)
 
 ### Prerequisites ⚙️
 
-* Python 3
-* Selenium Module
+* [Python3](https://www.python.org/download/releases/3.0/).
+* Selenium Module:
+  ``` pip install selenium```
 
 ## Configuring 🔧
 
 Modify all the parameters in the code (normally expressed as "xxxx..."), guide yourself according to the comments
 
-## Deploy
+## Executing the code
 
-When u build and execute the code, You just have to scan the QR code of WhatsApp Web, then next time you won't have to scan it.
+* You can use the comand ```py -u "Path of the py file" ``` , It's necessary to have python path specified in environment variables.
+
+* If you are using an IDE or a configured code editor just compile and run the code.
+
+  After running the code you just have to scan the QR code of WhatsApp Web, then next time you won't have to scan it.
 
 ## Author ✒️
 
