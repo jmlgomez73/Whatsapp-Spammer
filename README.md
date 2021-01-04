@@ -11,6 +11,8 @@ WhatsApp Web Spammer is a script that specifying the target (name of the victim)
 * [Python3](https://www.python.org/download/releases/3.0/).
 * Selenium Module:
   ``` pip install selenium```
+* Chrome Webdriver: Download from here : https://chromedriver.chromium.org/downloads
+  After that, uncompress and put in the "system32" directory (C:/Windows/System32/)
 
 ## Configuring 🔧
 
